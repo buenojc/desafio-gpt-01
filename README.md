@@ -16,7 +16,8 @@ Além de servir como trilha de estudos, este projeto busca avaliar na prática o
 ---
 
 > Um experimento sobre como aprender com a ajuda da inteligência artificial.
-
+&nbsp;
+&nbsp;
 ## 🔹 Parte 1 — Função Avançada: `groupBy`
 
 ### 🎯 Objetivo
@@ -50,7 +51,8 @@ const grouped = groupBy(data, item => item.age);
 
 console.log(grouped);
 ```
-
+&nbsp;
+&nbsp;
 ## 🔹 Parte 2 — Algoritmo de Lógica: `singleNumber`
 
 ### 🎯 Objetivo
@@ -80,6 +82,8 @@ const nums = [4, 1, 2, 1, 2];
 console.log(singleNumber(nums)); // Deve retornar 4
 
 ```
+&nbsp;
+&nbsp;
 ### 🚀 Desafio Bônus (Opcional)
 
 Tente resolver o desafio **sem usar estruturas auxiliares** como objetos, Maps ou Sets.
@@ -102,7 +106,8 @@ Portanto, se você fizer XOR de todos os elementos do array, os pares se anulam 
 Criar uma API REST utilizando **Node.js + Express**, capaz de realizar operações CRUD (Create, Read, Update, Delete) para gerenciar uma lista de tarefas.
 
 ----------
-
+&nbsp;
+&nbsp;
 ### 📜 Regras e Requisitos
 
 -   A API deve conter os seguintes endpoints:
@@ -113,7 +118,8 @@ Criar uma API REST utilizando **Node.js + Express**, capaz de realizar operaçõ
 | POST   | `/tasks`     | Cria uma nova tarefa                  |
 | PUT    | `/tasks/:id` | Atualiza uma tarefa (nome ou status)  |
 | DELETE | `/tasks/:id` | Remove uma tarefa                     |
-
+&nbsp;
+&nbsp;
 ### 🗂️ Estrutura dos Dados
 
 Cada tarefa deve conter:
@@ -124,7 +130,8 @@ Cada tarefa deve conter:
 
 -   `completed`: boolean (define se a tarefa está concluída ou não).
 
-
+&nbsp;
+&nbsp;
 ----------
 
 ### 🛠️ Tecnologias Sugeridas
@@ -139,7 +146,8 @@ Cada tarefa deve conter:
 
 -   TypeScript (opcional, se quiser avançar mais)
 
-
+&nbsp;
+&nbsp;
 ----------
 
 ### 🏗️ Funcionamento Esperado
@@ -156,7 +164,8 @@ Cada tarefa deve conter:
 
     -   Deletar uma tarefa por ID (`DELETE /tasks/:id`)
 
-
+&nbsp;
+&nbsp;
 ----------
 
 ### 💡 Extras (Opcional)
@@ -170,7 +179,8 @@ Cada tarefa deve conter:
 -   Validar entrada de dados (ex.: título não pode ser vazio).
 
 -   Implementar versionamento na API (`/api/v1/tasks`).
-
+&nbsp;
+&nbsp;
 --- 
 ## 🔍 Critérios de Avaliação
 
