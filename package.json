@@ -4,10 +4,11 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "exec": "ts-node"
   },
-  "dependencies": {},
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
   },
   "private": true
